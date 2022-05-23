@@ -29,5 +29,5 @@ $ python import_corpus.py
 
 this should ignore any entries that would validate any SQL constraints and import the data. Records will be inserted in batches of 10,000 by default with the exception of `corpus_types`, which is small enough to insert one by one.
 
-
+*N.B.* you can also run `python import_corpus.py -h` to see additional tools and options available for migration
 
