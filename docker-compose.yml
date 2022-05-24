@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   db:
-    image: postgres:14.2-alpine
+    image: postgis/postgis
     restart: always
     ports:
       - 5432:5432
